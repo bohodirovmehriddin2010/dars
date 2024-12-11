@@ -1,0 +1,47 @@
+.square{
+    background-color: black;
+width: 150px;
+    height: 150px;
+border-radius: 10px;
+
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.red{
+    background-color: red;
+}
+.red-off{
+    background-color: #790000;
+}
+.orange{
+    background-color: orange;
+}
+.orange-off{
+    background-color: #734a01;
+}
+.green{
+    background-color: green;
+}
+.green-off{
+    background-color: #064906;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

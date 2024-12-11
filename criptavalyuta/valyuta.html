@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+</head>
+<body class="mt-5 bg-warning d-flex justify-content-center align-items-center vh-100">
+
+<div class="card  bg-success p-4">
+    <div class="text-center fs-2 fw-bold text-white ">Currency Converter </div>
+    <div class="row mt-5">
+        <div class="col-3">
+            <label>
+                <select class="form-select fw-bold" id="Currency">
+                    <option class="fw-bold" value="usd">USD</option>
+                    <option class="fw-bold" value="uzs">UZS</option>
+                    <option class="fw-bold" value="rub">RUB</option>
+                    <option class="fw-bold" value="eur">EUR</option>
+                    <option class="fw-bold" value="kzt">KZT</option>
+                </select>
+            </label>
+        </div>
+        <div class="col-9">
+
+            <input id="summa" type="text" style="outline: none"
+                onkeyup="calculate()" placeholder="0"
+                class="border-0 px-3 fs-4 fw-bold">
+        </div>
+    </div>
+    <div class="row mt-5 ">
+        <div class="col-3">
+            <label>
+                <select class="form-select fw-bold" id="toCurrency">
+                    <option class="fw-bold" value="usd">USD</option>
+                    <option class="fw-bold" value="uzs">UZS</option>
+                    <option class="fw-bold" value="rub">RUB</option>
+                    <option class="fw-bold" value="eur">EUR</option>
+                    <option class="fw-bold" value="kzt">KZT</option>
+                </select>
+            </label>
+        </div>
+        <div class="col-9">
+            <div id="result" class="border-0 px-3 fs-4 fw-bold text-warning">
+                0
+            </div>
+        </div>
+    </div>
+
+    <div id="info" class="mt-4 text-center fw-bold text-warning fs-3">
+        1 USD = 12 646 UZS
+    </div>
+
+</div>
+
+<script src="aylcrip.js"></script>
+</body>
+</html>
+

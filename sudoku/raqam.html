@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="sty.css">
+</head>
+<body class="d-flex justify-content-around">
+<div class="list-group-item">
+    <div class="fw-bold text-center" style="font-size: 50px">SUDOKU</div>
+    <div class="list-styled">
+    </div>
+    <div class="list-group-item mt-3 fs-1 fw-bold">
+        <div class="card border border-5 border-dark rounded-0">
+            <div class="row m-0">
+                <div id="box1" onclick="clicked('box1')"
+                     class="col border border-5 border-end-0 border-dark bg-secondary-subtle no-click">4
+                </div>
+                <div id="box2" onclick="clicked('box2')" class="col border border-5 border-dark"></div>
+                <div id="box3" onclick="clicked('box3')"
+                     class="col border border-5 border-end-3 border-dark bg-secondary-subtle no-click">1
+                </div>
+                <div id="box4" onclick="clicked('box4')" class="col border border-5 border-start-0 border-dark"></div>
+            </div>
+            <div class="row m-0">
+                <div id="box5" onclick="clicked('box5')"
+                     class="col border border-5 border-end-0 border-dark">
+                </div>
+                <div id="box6" onclick="clicked('box6')"
+                     class="col border border-5 border-dark bg-secondary-subtle no-click">2
+                </div>
+                <div id="box7" onclick="clicked('box7')"
+                     class="col border border-5  border-dark  ">
+                </div>
+                <div id="box8" onclick="clicked('box8')" class="col border border-5 border-start-0 border-dark"></div>
+            </div>
+
+            <div class="row m-0">
+                <div id="box9" onclick="clicked('box9')"
+                     class="col border border-5 border-end-0 border-dark  ">
+                </div>
+                <div id="box10" onclick="clicked('box10')" class="col border border-5 border-dark"></div>
+                <div id="box11" onclick="clicked('box11')"
+                     class="col border border-5 border-end-3 border-dark bg-secondary-subtle no-click">3
+                </div>
+                <div id="box12" onclick="clicked('box12')" class="col border border-5 border-start-0 border-dark"></div>
+            </div>
+            <div class="row m-0">
+                <div id="box13" onclick="clicked('box13')"
+                     class="col border border-5 border-end-0 border-dark ">
+                </div>
+                <div id="box14" onclick="clicked('box14')" class="col border border-5 border-dark"></div>
+                <div id="box15" onclick="clicked('box15')"
+                     class="col border border-5 border-end-3 border-dark ">
+                </div>
+                <div id="box16" onclick="clicked('box16')"
+                     class="col border border-5 border-start-0 border-dark bg-secondary-subtle no-click">1
+                </div>
+            </div>
+
+    </div>
+
+        <div id="numbers" class="row m-0 ">
+            <div onclick="writeNumber(1)" class="col">1</div>
+            <div onclick="writeNumber(2)" class="col">2</div>
+            <div onclick="writeNumber(3)" class="col">3</div>
+            <div onclick="writeNumber(4)" class="col">4</div>
+
+        </div>
+        <div id="checkWon" class="d-none mt-3">
+            <button onclick="checkWon()" class="btn btn-primary fs-3 w-100">Tekshirish</button>
+        </div>
+        <div id="won" class="d-none mt-3 ">
+            <button onclick="location.reload()"
+                    class="btn btn-primary fs-3 w-100">Siz yutdingiz</button>
+        </div>
+
+        <div id="fail" class="d-none mt-3 ">
+            <button onclick="location.reload()"
+                    class="btn btn-warning fs-3 w-100">Afsus yutqazdingiz</button>
+        </div>
+
+        <script src="sudoku.js"></script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,11 @@
+#box1,#box2,#box3,#box4,#box5,#box6,#box7,#box8,#box9{
+    font-size: 60px;
+    min-width: 100px;
+    min-height: 100px;
+}
+.disabled-div{
+    pointer-events: none;
+}
+#lastItem{
+    height: 55px;
+}

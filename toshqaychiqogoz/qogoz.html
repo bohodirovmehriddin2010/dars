@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="qaychi.css">
+</head>
+<body class="d-flex align-items-center vh-100 justify-content-center">
+<div class="card p-5 rounded-5 border-0 shadow-lg" style="width: 600px;">
+    <div class="row fw-bold text-center text-danger fs-3">
+        <div class="col">
+            Foydalanuvchi
+        </div>
+        <div class="col">
+            Kompyuter
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col d-grid">
+            <img id="user" class="mx-auto" src="rock.png" width="100" alt="">
+        </div>
+        <div class="col d-grid">
+            <img id="comp" class="mx-auto" src="rock.png" width="100" alt="">
+        </div>
+    </div>
+    <div id="matn"
+         class="mt-5 text-danger fs-3 fw-bold border border-3 rounded-3 text-center p-2">
+        Keling o'ynaymiz
+    </div>
+    <div class="row mt-5">
+        <div onclick="startGame('tosh')" class="col d-grid">
+            <img class="mx-auto" src="rock.png" width="50" alt="">
+        </div>
+        <div onclick="startGame('qogoz')" class="col d-grid">
+            <img class="mx-auto" src="paper.png" width="50" alt="">
+        </div>
+        <div onclick="startGame('qaychi')" class="col d-grid">
+            <img class="mx-auto" src="scissors.png" width="50" alt="">
+        </div>
+    </div>
+    <div class="row mt-2 text-center fs-4 fw-bold text-danger">
+        <div class="col">
+            Tosh
+        </div>
+        <div class="col">
+            Qogoz
+        </div>
+        <div class="col">
+            Qaychi
+        </div>
+    </div>
+</div>
+<script src="tosh.js"></script>
+</body>
+</html>

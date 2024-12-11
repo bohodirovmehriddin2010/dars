@@ -1,0 +1,65 @@
+body{
+    background-color:#141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-y: hidden;
+}
+.card{
+        width: 300px;
+padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #2f2f2f;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100;
+    border-radius: 50%;
+}
+.ma{
+    margin-left: auto;
+    margin-right: auto;
+}
+.name{
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.city{
+    color: yellow;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.departament{
+    color: rgba(255,255,255,0.65);
+    font-size: 15px;
+   margin-top: 10px;
+}
+.link{
+    width: 80%;
+    background-color: #333333;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+

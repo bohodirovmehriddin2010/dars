@@ -1,0 +1,11 @@
+
+.col{
+    width: 120px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.no-click{
+    pointer-events: none;
+}

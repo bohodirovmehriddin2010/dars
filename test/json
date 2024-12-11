@@ -1,0 +1,7 @@
+let person = `
+{
+"name" = "ali",
+"age" : "21"
+"phone" : "911232334
+}
+`

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            margin-bottom: 20px;
+        }
+        .card {
+            border: none;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #004085;
+        }
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+        .card-text {
+            font-size: 1rem;
+            color: #6c757d;
+        }
+        .subject-card {
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: white;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .subject-math {
+            background-color: #007bff;
+        }
+        .subject-physics {
+            background-color: #28a745;
+        }
+        .subject-chemistry {
+            background-color: #dc3545;
+        }
+        .subject-russian {
+            background-color: #6c757d;
+        }
+        .subject-history {
+            background-color: #ffc107;
+        }
+        .subject-geography {
+            background-color: #17a2b8;
+        }
+        .subject-biology {
+            background-color: #28a745;
+        }
+    </style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <img src="image_2024-08-23_09-34-02.png" alt="">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Testlar</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Oliygoqlar</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Qabul 2023</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Sirtqi 2023</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Yangiliklar</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Kirish</a></li>
+            <li class="nav-item"><a class="nav-link btn btn-primary btn-lg" href="#">O'zbekcha</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section class="container mt-5">
+    <h2 class="text-center mb-4">Test topshirish</h2>
+    <div class="row text-center">
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Virtual Imtihon</h5>
+                    <p class="card-text">Oliy ta'lim muassasalariga kirish uchun mo'ljallangan...</p>
+                    <a href="#" class="btn btn-primary btn-lg">Imtihon topshirish</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Mavzuli testlar</h5>
+                    <p class="card-text">Tanlangan fanlardan mavzulashtirilgan yoki aralash...</p>
+                    <a href="#" class="btn btn-primary btn-lg">Mashg'ulotni boshlash</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Blokli testlar</h5>
+                    <p class="card-text">30 ta test savollaridan iborat blokli testlar...</p>
+                    <a href="#" class="btn btn-primary btn-lg">Blokli test ishlash</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="container mt-5">
+    <h2 class="text-center mb-4">Fanlar</h2>
+    <div class="row text-center">
+        <div class="col-md-3">
+            <div class="subject-card subject-math">Matematika</div>
+        </div>
+        <div class="col-md-3">
+            <div class="subject-card subject-physics">Fizika</div>
+        </div>
+        <div class="col-md-3">
+            <div class="subject-card subject-geography">Informatika</div>
+        </div>
+        <div class="col-md-3">
+            <div class="subject-card subject-history">Tarix</div>
+        </div>
+        <div class="col-md-3">
+            <div class="subject-card subject-chemistry">Kimyo</div>
+        </div>
+        <div class="col-md-3">
+            <div class="subject-card subject-russian">Rus tili</div>
+        </div>
+        <div class="col-md-3">
+            <div class="subject-card subject-historya">Geografiya</div>
+        </div>
+        <div class="col-md-3">
+            <div class="subject-card subject-biology">Biologiya</div>
+        </div>
+    </div>
+</section>
+
+<footer class="bg-dark text-white text-center py-3 mt-5">
+    <p>© 2016-2024, Ushbu tizim ActiveMedia Solutions tomonidan ishlab chiqilgan</p>
+    <p>info@abt.uz | Telegram</p>
+</footer>
+
+</body>
+</html>

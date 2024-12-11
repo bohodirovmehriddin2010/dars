@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="tac.css">
+</head>
+<body>
+<div class="container p-5 fs-1 fw-bold text-center d-flex justify-content-center">
+    <div class="list-group w-50 mt-5">
+        <div class="list-group-item bg-success">
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col">X</div>
+                            <div id="player_X" class="col"> -</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col">O</div>
+                            <div id="player_O" class="col"> -</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item text-white bg-dark">
+            <div class="row">
+                <div id="box1" onclick="boxClicked('box1')" class="col"></div>
+                <div id="box2" onclick="boxClicked('box2')"
+                     class="col border-success border border-5 border-top-0 border-bottom-0"></div>
+                <div id="box3" onclick="boxClicked('box3')" class="col"></div>
+            </div>
+            <div class="row">
+                <div id="box4" onclick="boxClicked('box4')"
+                     class="col border-success border border-5 border-start-0 border-end-0"></div>
+                <div id="box5" onclick="boxClicked('box5')" class="col border-success border border-5"></div>
+                <div id="box6" onclick="boxClicked('box6')"
+                     class="col border-success border border-5 border-start-0 border-end-0"></div>
+
+            </div>
+
+            <div class="row">
+                <div id="box7" onclick="boxClicked('box7')" class="col"></div>
+                <div id="box8" onclick="boxClicked('box8')"
+                     class="col border-success border border-5 border-top-0 border-bottom-0"></div>
+                <div id="box9" onclick="boxClicked('box9')" class="col"></div>
+            </div>
+        </div>
+
+        <div id="lastItem" class="list-group-item bg-success">
+            <div class="row">
+                <div class="col d-flex">
+                    <h5 id="restart" onclick="location.reload()" class="text-white fw-bold m-auto disabled-div"></h5>
+                </div>
+                <div class="col">
+                    <h3 id="draw" class="text-white fw-bold"></h3>
+                </div>
+                <div class="col d-flex">
+                    <h5 id="newGame" onclick="newGame()" class="text-white m-auto fw-bold disabled-div"></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="toe.js"></script>
+</body>
+</html>

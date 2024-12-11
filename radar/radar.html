@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+</head>
+<body class="d-flex justify-content-center vh-100 align-items-center">
+<div class="card p-3  border-0 shadow-lg">
+
+  <h2 class="text-center">RADAR</h2>
+<h4>shahar ichda cheklangan tezlik <span class="text-danger">70km/s</span></h4>
+<h4>cheklangan tezlikdan <span class="text-danger">5 km/s</span> </h4>
+<h4>oshsa jarima <span class="text-danger">350 000 UZS</span>tolash kerak </h4>
+<div class="row mt-3">
+    <div class="col-9">
+        <div class="rounded border p-2">
+            <div class="row">
+                <div class="col-10">
+                    <input id="tezlik" class="w-100 border-0" style="outline: none"
+                           type="text" placeholder="km/s">
+                </div>
+                <div class="col-2 d-flex align-items-center ">
+                    km/s
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-3">
+        <button onkeyup="hisoblash()" class="btn btn-primary">Hisoblash</button>
+    </div>
+</div>
+<h3 id="natija" class="mt-3 text-success fw-bold">Tezlik meyorida</h3>
+</div>
+    <script src="jarima.js"></script>
+</body>
+</html>

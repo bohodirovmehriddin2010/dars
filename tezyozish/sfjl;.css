@@ -1,0 +1,59 @@
+.k1{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.aktive{
+    border: 3px solid red;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.5);
+
+}
+.mlMinus10{
+    margin-left: -10px;
+}
+.k2{
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.k3{
+    width: 95px;
+    height: 50px;
+    border-radius: 10px;
+}
+.k4{
+    width: 125px;
+    height: 50px;
+    border-radius: 10px;
+}
+.bg1{
+    background-color: #DAE2E5;
+}
+.bg2{
+    background-color: #CACAFF;
+}
+.bg3{
+    background-color: #ACF3C7;
+}
+.bg4{
+    background-color: #FFBDC9;
+}
+.bg5{
+    background-color: #99EAE4;
+}
+.bg6{
+    background-color: #FFEB9A;
+}
+.bg7{
+    background-color: #FFD599;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,190 @@
+:root {
+    --primary-color: #96BB7C;
+    --secondry-text-color: #737373;
+    --secondry-bg-color: #daedcf;
+    --fasad-bg-color: #DDF4FF;
+
+}
+
+.app-navbar {
+    height: 59px;
+    background-color: white;
+}
+
+.menu {
+    color: var(--secondry-text-color);
+}
+
+.login {
+    color: var(--primary-color);
+}
+
+.login > button {
+    background-color: var(--primary-color);
+    color: white;
+    height: 52px;
+}
+
+.hero {
+    height: 600px;
+    background-color: var(--secondry-bg-color);
+
+}
+
+.facade {
+    height: 500px;
+    border-bottom-left-radius: 40%;
+    background-color: var(--fasad-bg-color);
+    z-index: auto;
+}
+.\*\?bd\\-placeholder\\-img\\-lg\)\?{
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 25%;
+    z-index: 10;
+}
+.user{
+    position: absolute;
+    z-index: 9;
+}
+.vector1{
+    position: absolute;
+    margin-left:25%;
+    margin-top: 25%;
+    z-index: 16;
+}
+.vector2{
+    position: absolute;
+    margin-left: 28%;
+    margin-top: 2%;
+    z-index: 8;
+}
+.vector3{
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 5%;
+    z-index: 8;
+}
+.vector4{
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 5%;
+    z-index: 7;
+}
+.vector5{
+    position: absolute;
+    margin-left: 6%;
+    margin-top: 6%;
+    z-index: 9;
+}
+.primary-color{
+    color: var(--primary-color);
+}
+.primary-bg{
+    background-color: var(--primary-color);
+}
+.primary-border{
+    border: 2px solid var(--primary-color);
+}
+.secondary-bg-color{
+    background-color: var(--secondry-bg-color);
+}
+.secondary-text-color{
+    color: #96BB7C;
+}
+.red-line{
+    width: 65px;
+    height: 2.5px;
+    background-color: red;
+}
+.xatonom{
+    position: absolute;
+    z-index: 10;
+    margin-top: -80px;
+
+}
+.asdfghj{
+    width: 72px;
+    height: 72px;
+}
+.section2{
+    padding-bottom: 150px;
+}
+.section2_img1{
+    background-color: #cfe4e7;
+    position: absolute;
+    margin-top: 30%;
+    z-index: 1;
+}
+.section2_img2{
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 40%;
+    z-index: 2;
+}
+.section2_img3{
+    position: absolute;
+    margin-left: -20%;
+    margin-top: 50%;
+    z-index: 2;
+}
+.section2_img4{
+    position: absolute;
+    margin-left: -20%;
+    margin-top: 40%;
+    z-index: 2;
+}
+.section2-left{
+    margin-top: 500px;
+}
+.red-line2{
+    width: 80px;
+    height: 6px;
+    background-color: red;
+}
+
+
+.section3{
+    margin-top:-50px;
+}
+.laft{
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+.section4{
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.lm{
+    width: 150px;
+    border: 2px solid var(--primary-color);
+}
+.section3{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.section5{
+    margin-top: 150px;
+    background-color: #FFF2F3;
+    height: 600px;
+}
+.big{
+    height: 70px;
+    width: 100px;
+    margin-top: 100px;
+
+}
+.big2{
+    height: 60px;
+    width: 100px;
+    margin-top: 100px;
+
+}
+
+
+
+
+
+
+
